@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/calendar"
+    tools:context=".MainActivity">
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnDiary1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/txtDiary2"
+        android:text="일기 쓰러가기"
+        android:textColor="@color/txtDiary"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_marginLeft="130dp"/>
+
+    <Button
+        android:id="@+id/btnDiary2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/txtDiary"
+        android:text="간단 스케줄러"
+        android:textColor="@color/txtDiary2"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_marginLeft="130dp"/>
+
+</LinearLayout>
